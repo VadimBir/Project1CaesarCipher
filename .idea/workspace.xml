@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26fa4c5f-71a5-44eb-8999-864f5297067e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1CaesarCipher.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaesarCipherDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommentChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1CaesarCipher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project1CaesarCipher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CaesarCipherDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaesarCipherDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,8 +37,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -42,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CaesarCipherDriver">
     <configuration name="CaesarCipherDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CaesarCipherDriver" />
       <module name="Project1CaesarCipher" />
@@ -50,9 +61,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1CaesarCipher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOutput" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOutput.testCiphertextOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1CaesarCipher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOutput" />
+      <option name="METHOD_NAME" value="testCiphertextOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOutput.testCommentRatio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1CaesarCipher" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOutput" />
+      <option name="METHOD_NAME" value="testCommentRatio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CaesarCipherDriver" />
+        <item itemvalue="JUnit.TestOutput.testCommentRatio" />
+        <item itemvalue="JUnit.TestOutput" />
+        <item itemvalue="JUnit.TestOutput.testCiphertextOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -64,11 +107,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702064111932</updated>
-      <workItem from="1702064112279" duration="1199000" />
+      <workItem from="1702064112279" duration="7850000" />
     </task>
+    <task id="LOCAL-00001" summary="Ceasar Cypher Base Code">
+      <created>1702065369529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702065369529</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ceasar Cypher Base Code">
+      <created>1702065442676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702065442676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ceasar Cypher Base Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ceasar Cypher Base Code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestOutput.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
